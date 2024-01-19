@@ -1,9 +1,11 @@
+import LoginPage from "./pages/LoginPage";
+
 function App() {
   return (
     <>
-      <button className="btn btn-success text-white hover:scale-110">
-        Success
-      </button>
+      <main className=" container flex flex-col items-center justify-center h-screen mx-auto w-2/3 gap-3">
+        <LoginPage />
+      </main>
     </>
   );
 }
